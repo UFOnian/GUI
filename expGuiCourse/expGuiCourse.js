@@ -404,7 +404,7 @@ var expGuiCourse = function (pObject, config) {
         }
         // その他パラメータ追加
         if (etcParam.length > 0) {
-            searchWord += "&" + etcParam.join("&");
+            url += "&" + etcParam.join("&");
         }
         searchRun(url, searchObj.getPriceType());
     }
